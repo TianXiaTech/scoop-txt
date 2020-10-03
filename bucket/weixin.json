@@ -25,7 +25,7 @@
             "mode": "download"
         }
     },
-    "notes": "微信不保存任何用户的聊天记录，聊天内容只存储在用户的终端设备上。",
+    "notes": "微信不保存任何用户的聊天记录，聊天内容只存储在用户的终端设备上",
     "post_install": [
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
         "Remove-Item \"$dir\\`$_15_\" -Force -Recurse",
