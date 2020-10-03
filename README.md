@@ -33,5 +33,11 @@ iwr -useb get.scoop.sh | iex
 
 scoop-txt源主要包含国内热门的应用程序，添加scoop-txt源到scoop:
 ``` powershell
-scoop bucket add scoop-txt https://github.com/TianXiaTech/scoop-txt.git
+scoop bucket add txt https://github.com/TianXiaTech/scoop-txt.git
+```
+安装应用:
+``` powershell
+scoop install weixin
+# or
+scoop install txt/weixin
 ```
