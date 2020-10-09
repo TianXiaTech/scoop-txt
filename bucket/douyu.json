@@ -1,0 +1,29 @@
+{
+    "version": "8.3.9.2",
+    "description": "斗鱼",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "www.douyu.com"
+    },
+    "url": "https://sta-op.douyucdn.cn/dypc-client/pkg/Douyu_Live_PC_Client/20200929142546700/DouyuLive_8.3.9.2_Server_1.1.1.4.exe#/dl.7z",
+    "homepage": "http://www.douyu.com",
+    "bin": [
+        "Client/DouyuLive.exe",
+        "douyu"
+    ],
+    "hash": "d29e61a7c4de7703fd0fe477a1b63e3ecb2cb0ab2187ed0c6d08261358ee0b83",
+    "checkver": {
+        "url": "https://www.douyu.com/client?tab=client#pc",
+        "regex": "Douyu_Live_PC_Client/(?<timestamp>.*?)/DouyuLive_([\\d.]+)_Server_(?<server>[\\d.]+).exe"
+    },
+    "autoupdate": {
+        "url": "https://sta-op.douyucdn.cn/dypc-client/pkg/Douyu_Live_PC_Client/$matchTimestamp/DouyuLive_$version_Server_$matchServer.exe#/dl.7z",
+        "hash": {
+            "mode": "download"
+        }
+    },
+    "post_install": [
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+        "Rename-Item \"$dir\\$version\" \"$dir\\Application\""
+    ]
+}
