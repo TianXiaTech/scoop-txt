@@ -9,7 +9,10 @@
     "homepage": "http://www.douyu.com",
     "bin": [
         "Client/DouyuLive.exe",
-        "douyu"
+        [
+            "Client/DouyuLive.exe",
+            "douyu"
+        ]
     ],
     "hash": "d29e61a7c4de7703fd0fe477a1b63e3ecb2cb0ab2187ed0c6d08261358ee0b83",
     "checkver": {
