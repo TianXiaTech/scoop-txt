@@ -1,4 +1,4 @@
-# scoop-txt
+# scoop-txt  
 
 [Scoop](https://scoop.sh/)是一款强大的Windows命令行包管理工具，[Scoop仓库地址](https://github.com/lukesampson/scoop)
 
