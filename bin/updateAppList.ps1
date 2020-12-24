@@ -4,7 +4,7 @@ $appListPath = "../app-list.json"
 $backetPath = "../bucket"
 
 if (!(Test-Path $backetPath)) {
-    Write-Warning "'$backetPath' directory can not find"
+    Write-Warning "'$backetPath' directory is not found."
     exit 0
 }
 
@@ -19,7 +19,7 @@ New-Item -Path $appListPath | Out-Null
 $files = Get-ChildItem $backetPath/*.json -Depth 3 | Select-Object name,BaseName,FullName
 
 ForEach ($file in $files) {
-    try 
+    try
     {
         $version = Get-Content $file.FullName | ConvertFrom-Json | Select-Object -ExpandProperty version
         $json[$file.BaseName] = [string]$version
