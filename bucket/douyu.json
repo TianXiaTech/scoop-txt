@@ -1,11 +1,11 @@
 {
-    "version": "8.4.3.1",
+    "version": "8.4.4.1",
     "description": "斗鱼",
     "license": {
         "identifier": "Proprietary",
         "url": "www.douyu.com"
     },
-    "url": "https://sta-op.douyucdn.cn/dypc-client/pkg/Douyu_Live_PC_Client/20210111160623443/DouyuLive_8.4.3.1_Server_1.1.1.4.exe#/dl.7z",
+    "url": "https://sta-op.douyucdn.cn/dypc-client/pkg/Douyu_Live_PC_Client/20210202154513795/DouyuLive_8.4.4.1_Server_1.1.1.4.exe#/dl.7z",
     "homepage": "http://www.douyu.com",
     "bin": [
         [
@@ -13,7 +13,7 @@
             "douyu"
         ]
     ],
-    "hash": "38d4754d4c6e3911bc81a8fa51fa045bb38c7a798da0982b493804d126b441c0",
+    "hash": "f1306922746ba8d1e73c6018af65d2912aa748f8fd57d4a05ab1109bedaaf6f7",
     "checkver": {
         "url": "https://www.douyu.com/client?tab=client#pc",
         "regex": "Douyu_Live_PC_Client/(?<timestamp>.*?)/DouyuLive_([\\d.]+)_Server_(?<server>[\\d.]+).exe"
