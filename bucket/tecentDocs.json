@@ -1,0 +1,31 @@
+{
+    "version": "nightly",
+    "description": "腾讯文档，协作工具",
+    "homepage": "https://docs.qq.com/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "Tencent"
+    },
+    "url": "https://down.qq.com/qqweb/PC_DOCS/TencentDocsSetup.exe#/dl.7z",
+    "architecture": {
+        "64bit": {
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
+            ]
+        },
+        "32bit": {
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
+            ]
+        }
+    },
+    "bin": "TencentDocs.exe",
+    "shortcuts": [
+        [
+            "TencentDocs.exe",
+            "腾讯文档"
+        ]
+    ]
+}
