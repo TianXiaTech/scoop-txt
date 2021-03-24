@@ -1,14 +1,14 @@
 {
-    "version": "7.1.1.2",
+    "version": "7.2.6.2",
     "description": "百度网盘",
     "license": {
         "identifier": "Proprietary",
         "url": "Baidu"
     },
-    "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.1.1.2.exe#/dl.7z",
+    "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.2.6.2.exe#/dl.7z",
     "homepage": "http://pan.baidu.com/",
     "bin": "BaiduNetdisk.exe",
-    "hash": "961fdebe3279fe88369ccc5e3d9270831f47845129f9b9295374003e9a18e5d4",
+    "hash": "a979c5dc1272dd3762ec7e9c9fead8d3ce31a12faecf5bfe8b419f39c9a7b00a",
     "checkver": {
         "url": "http://pan.baidu.com/disk/cmsdata?do=client",
         "regex": "BaiduNetdisk_([\\d.]+).exe"
