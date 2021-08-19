@@ -1,4 +1,4 @@
-# scoop-txt  
+# scoop-txt
 
 [Scoop](https://scoop.sh/)是一款强大的Windows命令行包管理工具，[Scoop仓库地址](https://github.com/lukesampson/scoop)
 
@@ -40,4 +40,14 @@ scoop bucket add txt https://github.com/TianXiaTech/scoop-txt.git
 scoop install weixin
 # or
 scoop install txt/weixin
+```
+
+## 常见问题
+
+执行 `scoop update` 出现以下问题，先移除 txt `scoop bucket rm txt`，然后再重新添加到 bucket 中，`scoop bucket add txt https://github.com/TianXiaTech/scoop-txt.git`
+
+```bash
+Updating 'txt' bucket...
+Your configuration specifies to merge with the ref 'refs/heads/main'
+from the remote, but no such ref was fetched.
 ```
