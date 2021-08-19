@@ -4,8 +4,8 @@
     "description": "一款可多人同时编辑的在线文档工具",
     "homepage": "https://docs.qq.com",
     "license": {
-        identifier: "Proprietary",
-        url: "https://docs.qq.com/doc/DZFVpTGVZWHpIYnJo?pub=1&dver=2.1.0"
+        "identifier": "Proprietary",
+        "url": "https://docs.qq.com/doc/DZFVpTGVZWHpIYnJo?pub=1&dver=2.1.0"
     },
     "url": "https://down.qq.com/qqweb/PC_DOCS/TencentDocsSetup.exe#/dl.7z",
     "architecture": {
@@ -29,7 +29,7 @@
             "腾讯文档"
         ]
     ],
-    notes: [
+    "notes": [
         "软件名称：腾讯文档",
         "软件功能：腾讯文档是一款可多人协作的在线文档，可同时编辑 Word、Excel 和 PPT 文档，云端实时保存。可针对 QQ、微信好友设置文档访问、编辑权限，支持多种版本 Word、Excel 和 PPT 文档模板。",
         "更新方式：scoop update tencentDocs -f\n"
