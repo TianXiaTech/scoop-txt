@@ -2,10 +2,7 @@
     "version": "nightly",
     "description": "腾讯文档，协作工具",
     "homepage": "https://docs.qq.com/",
-    "license": {
-        "identifier": "Proprietary",
-        "url": "Tencent"
-    },
+    "license": "Proprietary",
     "url": "https://down.qq.com/qqweb/PC_DOCS/TencentDocsSetup.exe#/dl.7z",
     "architecture": {
         "64bit": {

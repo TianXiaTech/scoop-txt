@@ -15,10 +15,7 @@
         ]
     ],
     "hash": "96d92b422535e4edc88e0a6b6467fa783a5192068fc80acf4845d4f988f8f09e",
-    "checkver": {
-        "url": "https://pc.weixin.qq.com/",
-        "regex": "version-tag\">([\\d.]+)<"
-    },
+    "checkver":"version-tag\">([\\d.]+)<",
     "autoupdate": {
         "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z",
         "hash": {

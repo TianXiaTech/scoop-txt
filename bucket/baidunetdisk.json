@@ -1,10 +1,7 @@
 {
     "version": "7.6.0.13",
     "description": "百度网盘",
-    "license": {
-        "identifier": "Proprietary",
-        "url": "Baidu"
-    },
+    "license": "Proprietary",
     "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.6.0.13.exe#/dl.7z",
     "homepage": "http://pan.baidu.com/",
     "bin": "BaiduNetdisk.exe",
