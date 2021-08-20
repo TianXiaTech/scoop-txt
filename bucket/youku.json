@@ -1,6 +1,8 @@
 {
     "version": "8.0.8.12173",
-    "license": "Copyright©2019 优酷",
+    "license": {
+        "identifier": "Copyright © 2019 优酷"
+    },
     "description": "[优酷] - 优酷视频客户端",
     "homepage": "https://www.youku.com",
     "url": "https://pcclient.download.youku.com/youkuclient/youkuclient_setup_8.0.8.12173.exe#/dl.7z",
