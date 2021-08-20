@@ -1,12 +1,12 @@
 {
     "##": "百度网盘",
-    "version": "7.6.0.13",
+    "version": "7.7.0.5",
     "description": "7亿用户信赖的个人云存储产品",
     "license": "Proprietary",
-    "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.6.0.13.exe#/dl.7z",
+    "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.7.0.5.exe#/dl.7z",
     "homepage": "http://pan.baidu.com",
     "bin": "BaiduNetdisk.exe",
-    "hash": "d7f565b75e921380dfb66087354baf9aa920a9b1398f0af8865b7388227076d0",
+    "hash": "e1365ba1eafdbbafd933093f793a09b5b7e0709e57fc53d5ccf386919eaa7317",
     "checkver": {
         "url": "http://pan.baidu.com/disk/cmsdata?do=client",
         "regex": "BaiduNetdisk_([\\d.]+).exe"
@@ -23,6 +23,7 @@
     ],
     "notes": [
         "软件名称：百度网盘（原百度云）",
-        "软件功能：百度网盘是百度推出的一项云存储服务，用户将可以轻松将自己的文件上传到网盘上，并可跨终端随时随地查看和分享。\n"
+        "软件功能：百度网盘是百度推出的一项云存储服务，用户将可以轻松将自己的文件上传到网盘上，并可跨终端随时随地查看和分享。
+"
     ]
 }
