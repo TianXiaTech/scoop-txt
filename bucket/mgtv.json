@@ -1,0 +1,35 @@
+{
+    "##": "芒果TV",
+    "version": "6.3.9",
+    "description": "[芒果TV] - 湖南广播电视台旗下唯一互联网视频平台，提供湖南卫视所有电视栏目高清视频点播服务，并同步推送热门电视剧、电影、综艺和音乐视频内容，以及部分电视台网络同步直播。",
+    "license": {
+        "identifier": "Copyright © 2006-2021 mgtv.com"
+    },
+    "homepage": "https://www.mgtv.com",
+    "url": "https://download.imgo.tv/app/pc/6.3.9/mgtv-client-6.3.9-mango2.exe#/dl.7z",
+    "hash": "aed69b81c87b33c1a36e9f3f5511d9a88ae94d8d27c5cdaff9584125f824b97f",
+    "installer": {
+        "script": "Expand-7zipArchive \"$dir\\app-32.7z\""
+    },
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+    "shortcuts": [
+        [
+            "芒果TV.exe",
+            "芒果TV"
+        ],
+        [
+            "uninst.exe",
+            "卸载芒果TV"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.mgtv.com/app",
+        "regex": "mgtv-client-([\\d.]+)-mango2\\.exe"
+    },
+    "autoupdate": {
+        "url": "https://download.imgo.tv/app/pc/6.3.9/mgtv-client-$version-mango2.exe#/dl.7z",
+        "hash": {
+            "mode": "download"
+        }
+    }
+}
