@@ -42,6 +42,8 @@ scoop install weixin
 scoop install txt/weixin
 ```
 
+遇到版本为 `nightly-20210820` 这类的，更新方式为 `scoop update <App Name> -f`
+
 ## 常见问题
 
 执行 `scoop update` 出现以下问题，先移除 txt `scoop bucket rm txt`，然后再重新添加到 bucket 中，`scoop bucket add txt https://github.com/TianXiaTech/scoop-txt.git`
