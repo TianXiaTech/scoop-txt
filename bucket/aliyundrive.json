@@ -2,7 +2,10 @@
     "##": "阿里云盘",
     "version": "nightly",
     "description": "智能云存储产品，为个人用户提供的个人云服务。",
-    "license": "Proprietary",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_dingtalk/suit_bu1_dingtalk202103191654_76478.html"
+    },
     "homepage": "https://www.aliyundrive.com/",
     "url": "https://yunpan.aliyun.com/downloads/apps/desktop/aDrive.exe#/dl.7z",
     "shortcuts": [

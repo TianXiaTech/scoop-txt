@@ -2,7 +2,10 @@
     "##": "百度网盘",
     "version": "7.7.0.5",
     "description": "7亿用户信赖的个人云存储产品",
-    "license": "Proprietary",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://pan.baidu.com/disk/main#/protocol/duty_mobi"
+    },
     "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.7.0.5.exe#/dl.7z",
     "homepage": "http://pan.baidu.com",
     "bin": "BaiduNetdisk.exe",
