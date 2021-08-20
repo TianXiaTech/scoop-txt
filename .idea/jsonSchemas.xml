@@ -3,17 +3,17 @@
   <component name="JsonSchemaMappingsProjectConfiguration">
     <state>
       <map>
-        <entry key="scoop-txt">
+        <entry key="Scoop Schema">
           <value>
             <SchemaInfo>
-              <option name="name" value="scoop-txt" />
-              <option name="relativePathToSchema" value="https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json" />
+              <option name="name" value="Scoop Schema" />
+              <option name="relativePathToSchema" value="schema.json" />
               <option name="schemaVersion" value="JSON Schema version 7" />
               <option name="patterns">
                 <list>
                   <Item>
                     <option name="pattern" value="true" />
-                    <option name="path" value="bucket/*.json" />
+                    <option name="path" value="*.json" />
                     <option name="mappingKind" value="Pattern" />
                   </Item>
                 </list>
