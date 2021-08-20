@@ -3,7 +3,7 @@
     "version": "11.26.5008.0",
     "description": "[腾讯视频] - 聚合热播影视、综艺娱乐、体育赛事、新闻资讯等，为用户提供高清流畅的视频娱乐体验",
     "license": {
-        identifier: "Copyright © 1998 - 2021 Tencent"
+        "identifier": "Copyright © 1998 - 2021 Tencent"
     },
     "homepage": "https://v.qq.com",
     "hash": "86cd07487b2a4646c793dc7a0712bf75345b325e61cdaf8e88813cf2c864943b",

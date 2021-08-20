@@ -6,6 +6,7 @@
     "description": "[优酷] - 优酷视频客户端",
     "homepage": "https://www.youku.com",
     "url": "https://pcclient.download.youku.com/youkuclient/youkuclient_setup_8.0.8.12173.exe#/dl.7z",
+    "hash": "dee316c3f18cb02c744f2140751c6746356d76d513b55807eaf58b4b294b7972",
     "bin": [
         [
             "YoukuDesktop.exe",
