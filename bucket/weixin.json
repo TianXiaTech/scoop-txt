@@ -1,7 +1,7 @@
 {
     "##": "微信",
     "version": "3.3.5",
-    "description": "一款跨平台的通讯工具",
+    "description": "[微信] - 超过10亿人使用，能够通过网络给好友发送文字消息、表情和图片，还可以传送文件，与朋友视频聊天，让你的沟通更方便。并提供有多种语言界面。",
     "license": {
         "identifier": "Proprietary",
         "url": "https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement"
@@ -27,9 +27,5 @@
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
         "Remove-Item \"$dir\\`$_15_\" -Force -Recurse",
         "Remove-Item \"$dir\\`$R5\" -Force -Recurse"
-    ],
-    "notes": [
-        "软件名称：微信 Windows 版",
-        "软件功能：微信，超过10亿人使用，能够通过网络给好友发送文字消息、表情和图片，还可以传送文件，与朋友视频聊天，让你的沟通更方便。并提供有多种语言界面。"
     ]
 }

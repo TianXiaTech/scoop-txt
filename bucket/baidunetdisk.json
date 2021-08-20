@@ -1,7 +1,7 @@
 {
     "##": "百度网盘",
     "version": "7.7.0.5",
-    "description": "7亿用户信赖的个人云存储产品",
+    "description": "[百度网盘（原百度云）] - 百度网盘是百度推出的一项云存储服务，用户将可以轻松将自己的文件上传到网盘上，并可跨终端随时随地查看和分享。",
     "license": {
         "identifier": "Proprietary",
         "url": "https://pan.baidu.com/disk/main#/protocol/duty_mobi"
@@ -23,9 +23,5 @@
     "post_install": [
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
         "Remove-Item \"$dir\\`$TEMP\" -Force -Recurse"
-    ],
-    "notes": [
-        "软件名称：百度网盘（原百度云）",
-        "软件功能：百度网盘是百度推出的一项云存储服务，用户将可以轻松将自己的文件上传到网盘上，并可跨终端随时随地查看和分享。"
     ]
 }

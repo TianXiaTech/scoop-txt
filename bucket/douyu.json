@@ -1,7 +1,7 @@
 {
     "##": "斗鱼",
     "version": "8.4.8.5",
-    "description": "弹幕式直播分享网站",
+    "description": "[斗鱼] - 斗鱼是一家弹幕式直播分享网站，为用户提供视频直播和赛事直播服务，斗鱼以游戏直播为主，涵盖了娱乐、综艺、体育、户外等多种直播内容。",
     "license": {
         "identifier": "Proprietary",
         "url": "https://www.douyu.com/cms/ptgz/202007/31/16102.shtml"
@@ -25,9 +25,5 @@
             "mode": "download"
         }
     },
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
-    "notes": [
-        "软件名称：斗鱼 PC 客户端",
-        "软件功能：斗鱼是一家弹幕式直播分享网站，为用户提供视频直播和赛事直播服务，斗鱼以游戏直播为主，涵盖了娱乐、综艺、体育、户外等多种直播内容。"
-    ]
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
 }

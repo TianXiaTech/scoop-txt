@@ -1,7 +1,7 @@
 {
     "##": "虎牙直播",
     "version": "nightly",
-    "description": "虎牙直播是一个互动直播平台，为用户提供高清、流畅而丰富的互动式视频直播服务，旗下产品包括知名游戏直播平台虎牙直播、风靡东南亚和南美的游戏直播平台 NimoTV 等",
+    "description": "[虎牙直播] - 虎牙直播是一个以游戏直播为主的弹幕式互动直播平台，提供热门游戏直播、电竞赛事直播与游戏赛事直播，手游直播等",
     "license": {
         "identifier": "Proprietary",
         "url": "https://hd.huya.com/huyaDIYzt/6811/pc/index.html#diySetTab=4"
@@ -28,10 +28,5 @@
             "Repair\\HuyaRepair.exe",
             "虎牙直播 - 环境修复"
         ]
-    ],
-    "notes": [
-        "软件名称：虎牙直播",
-        "软件功能：以游戏直播为主的弹幕式互动直播平台，提供热门游戏直播、电竞赛事直播与游戏赛事直播，手游直播等",
-        "更新方式：scoop update huya -f"
     ]
 }
