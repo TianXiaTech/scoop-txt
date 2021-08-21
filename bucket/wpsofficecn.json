@@ -15,6 +15,12 @@
         "Expand-7zipArchive \"$dir\\4.7z\" -ExtractDir 'office6' -Removal",
         "Expand-7zipArchive \"$dir\\2.7z\" -ExtractDir 'CONTROL\\office6' -Overwrite 'All' -Removal"
     ],
+    "bin": [
+        [
+            "wpsoffice.exe",
+            "wpsofficecn"
+        ]
+    ],
     "shortcuts": [
         [
             "wpsoffice.exe",
