@@ -1,14 +1,14 @@
 {
     "##": "语雀",
-    "version": "0.9.29",
+    "version": "0.9.30",
     "description": "[语雀] - 一款文档与知识管理工具。语雀使用了\"结构化知识库管理\"，形式上类似书籍的目录",
     "license": {
         "identifier": "EULA",
         "url": "https://www.yuque.com/terms"
     },
     "homepage": "https://www.yuque.com",
-    "url": "https://app.nlark.com/yuque-desktop/Yuque-0.9.29.exe#/dl.7z",
-    "hash": "aecc860285fdad09a31788897af917b4795599b2a450eaf99196d8ef5149d3b3",
+    "url": "https://app.nlark.com/yuque-desktop/Yuque-0.9.30.exe#/dl.7z",
+    "hash": "c6929ee654c7dbab4b3e2e798554845fbf6a061ad449fea8113a28794eef74d3",
     "installer": {
         "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" $dir"
     },
