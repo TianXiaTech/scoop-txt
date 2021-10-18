@@ -30,7 +30,7 @@
     ],
     "checkver": {
         "url": "https://pd.youku.com/pc",
-        "regex": "youkuclient_setup_([\\d.]+)\\.exe"
+        "regex": "youkuclient\/youkuclient_setup_([\\d.]+)\\.exe"
     },
     "autoupdate": {
         "url": "https://pcclient.download.youku.com/youkuclient/youkuclient_setup_$version.exe#/dl.7z",
