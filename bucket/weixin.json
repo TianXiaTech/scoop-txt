@@ -15,7 +15,7 @@
             "weixin"
         ]
     ],
-    "hash": "3de93ed63f3b896d422f6bfea3a8cdc37ba6d5ae2972015e9e8eac719c83067b",
+    "hash": "8986782fce19402b989fd43def39338aab91822dac2ea27ae302e7aca79ef3ba",
     "checkver": {
         "url": "https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_faq_list",
         "regex": "page/faq/win.*?version>([\\d.]+)<"
