@@ -1,14 +1,14 @@
 {
-    "##": "语雀",
-    "version": "0.9.30",
+    "##": "语雀, checkver|https://www.yuque.com/api/docs/changelog?book_id=1840275|$.data.content|Yuque-([\\d.]+).exe",
+    "version": "0.9.31",
     "description": "[语雀] - 一款文档与知识管理工具。语雀使用了\"结构化知识库管理\"，形式上类似书籍的目录",
     "license": {
         "identifier": "EULA",
         "url": "https://www.yuque.com/terms"
     },
     "homepage": "https://www.yuque.com",
-    "url": "https://app.nlark.com/yuque-desktop/Yuque-0.9.30.exe#/dl.7z",
-    "hash": "c6929ee654c7dbab4b3e2e798554845fbf6a061ad449fea8113a28794eef74d3",
+    "url": "https://app.nlark.com/yuque-desktop/Yuque-0.9.31.exe#/dl.7z",
+    "hash": "99f0a2f32016bbbfff94d53423f022a30e4db8b41b7cde57583d7a5f313bf6cd",
     "installer": {
         "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" $dir"
     },
@@ -20,9 +20,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.yuque.com/api/docs/changelog?book_id=1840275",
-        "jsonpath": "$.data.content",
-        "regex": "Yuque-([\\d.]+).exe"
+        "url": "https://www.yuque.com/install/desktop",
+        "regex": "desktopDownloadVersion%22%3A%22([\\d.]+)%22"
     },
     "autoupdate": {
         "url": "https://app.nlark.com/yuque-desktop/Yuque-$version.exe#/dl.7z"
