@@ -1,13 +1,13 @@
 {
-    "version": "10938.12012.2019",
+    "version": "11045.12012.2019",
     "description": "[WPS Office 中文版] - 协同办公软件",
     "homepage": "https://www.wps.cn",
     "license": {
         "identifier": "Freeware",
         "url": "https://www.wps.cn/privacy/useragreement"
     },
-    "url": "https://official-package.wpscdn.cn/wps/download/W.P.S.10938.12012.2019.exe#/dl.7z",
-    "hash": "70320b30c94c79ee126458f1943a750980a22f2bc5f60ee2b78ae739e01cd2eb",
+    "url": "https://official-package.wpscdn.cn/wps/download/W.P.S.11045.12012.2019.exe#/dl.7z",
+    "hash": "d158e20b64d0f4cbdbae133b4fd9ed82ff6d38ae9f319b20f0d419ab4a9179e3",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\`$_11_\\`$EXEFILE\" -Switches '-t#'",
         "Move-Item \"$dir\\`$_11_\\*.7z\" $dir",
