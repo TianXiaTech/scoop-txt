@@ -1,13 +1,13 @@
 {
     "##": "腾讯视频",
-    "version": "11.32.2015.0",
+    "version": "11.33.3095.0",
     "description": "[腾讯视频] - 聚合热播影视、综艺娱乐、体育赛事、新闻资讯等，为用户提供高清流畅的视频娱乐体验",
     "license": {
         "identifier": "Copyright © 1998 - 2021 Tencent"
     },
     "homepage": "https://v.qq.com",
-    "hash": "a0429959d38c527c3e74c8e9c53e483e88dbf56ab8454993495ce822185216a2",
-    "url": "https://dldir1.qq.com/qqtv/TencentVideo11.32.2015.0.exe#/dl.7z",
+    "hash": "627bb5705fff3a84ddeca47c138079395b1c8c753d3d4614c9496ea21ad2a0c6",
+    "url": "https://dldir1.qq.com/qqtv/TencentVideo11.33.3095.0.exe#/dl.7z",
     "bin": [
         [
             "QQLive.exe",
