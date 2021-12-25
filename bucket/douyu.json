@@ -1,12 +1,12 @@
 {
     "##": "斗鱼",
-    "version": "8.5.2.2",
+    "version": "8.5.3.1",
     "description": "[斗鱼] - 斗鱼是一家弹幕式直播分享网站，为用户提供视频直播和赛事直播服务，斗鱼以游戏直播为主，涵盖了娱乐、综艺、体育、户外等多种直播内容。",
     "license": {
         "identifier": "Proprietary",
         "url": "https://www.douyu.com/cms/ptgz/202007/31/16102.shtml"
     },
-    "url": "https://sta-op.douyucdn.cn/dypc-client/pkg/Douyu_Live_PC_Client/20211201211312353/DouyuLive_8.5.2.2_Server_1.1.1.4.exe#/dl.7z",
+    "url": "https://sta-op.douyucdn.cn/dypc-client/pkg/Douyu_Live_PC_Client/20211224172735762/DouyuLive_8.5.3.1_Server_1.1.1.4.exe#/dl.7z",
     "homepage": "http://www.douyu.com",
     "bin": [
         [
@@ -14,7 +14,7 @@
             "douyu"
         ]
     ],
-    "hash": "784c664c12a225e6097ea274e7476329dd02cc8ab9da64004e6edc47824f2083",
+    "hash": "5ff7d34ddb45b658a9328de5ec6e4800f4e01c461ec08fb0fa02070467e7d649",
     "checkver": {
         "url": "https://www.douyu.com/client?tab=client#pc",
         "regex": "Douyu_Live_PC_Client/(?<timestamp>.*?)/DouyuLive_([\\d.]+)_Server_(?<server>[\\d.]+).exe"
