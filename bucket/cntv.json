@@ -1,11 +1,11 @@
 {
     "##": "央视影音",
-    "version": "5.0.1.1",
+    "version": "5.0.1.2",
     "description": "[央视影音] - 央视影音客户端创新融合央视内容和互联网科技，在内容创新、用户体验、模式创优等各方面不断深耕细作，引领中国电视观众内容消费方式的转型升级，树立了主流媒体融合的行业标杆，实现\"大屏带小屏、小屏回大屏、多屏联受众\"",
     "license": "Freeware",
     "homepage": "https://tv.cctv.com/live",
-    "url": "https://download.cntv.cn/cbox/v5/ysyy_v5.0.1.1_1001_setup.exe#/dl.7z",
-    "hash": "aa7ce7ce73ae242ac62e464fd1936c41a9847b1b4c5572080e30fc09ca819528",
+    "url": "https://download.cntv.cn/cbox/v5/ysyy_v5.0.1.2_1001_setup.exe#/dl.7z",
+    "hash": "69f83235af67b50c49cce1ac3c08c63e3a8baa95214a853f52573cb083bc9350",
     "installer": {
         "script": "Expand-7zipArchive \"$dir\\CBox.7z\" -ExtractDir bin -DestinationPath \"$dir\\bin\""
     },
