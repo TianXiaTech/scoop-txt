@@ -1,14 +1,14 @@
 {
     "##": "语雀, checkver|https://www.yuque.com/api/docs/changelog?book_id=1840275|$.data.content|Yuque-([\\d.]+).exe",
-    "version": "0.10.2",
+    "version": "1.0.3",
     "description": "[语雀] - 一款文档与知识管理工具。语雀使用了\"结构化知识库管理\"，形式上类似书籍的目录",
     "license": {
         "identifier": "EULA",
         "url": "https://www.yuque.com/terms"
     },
     "homepage": "https://www.yuque.com",
-    "url": "https://app.nlark.com/yuque-desktop/Yuque-0.10.2.exe#/dl.7z",
-    "hash": "18ad83a38a1f044df979746ef52df8b71102ad6dd370de655badda8d786750c3",
+    "url": "https://app.nlark.com/yuque-desktop/Yuque-1.0.3.exe#/dl.7z",
+    "hash": "4ef84c02a1248fb6dc7ac3e960d6f7f809869cbfe2bb94242610bc29dc96700b",
     "installer": {
         "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" $dir"
     },
