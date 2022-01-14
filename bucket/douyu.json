@@ -14,6 +14,12 @@
             "douyu"
         ]
     ],
+    "shortcuts": [
+        [
+            "Client\\DouyuLive.exe",
+            "斗鱼直播"
+        ]
+    ],
     "hash": "5ff7d34ddb45b658a9328de5ec6e4800f4e01c461ec08fb0fa02070467e7d649",
     "checkver": {
         "url": "https://www.douyu.com/client?tab=client#pc",
