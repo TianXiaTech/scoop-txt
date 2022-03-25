@@ -1,14 +1,14 @@
 {
     "##": "剪映专业版",
-    "version": "2.8.0.7815",
+    "version": "2.8.5.7988",
     "description": "[剪映专业版] - 剪映专业版拥有强大的素材库，支持多视频轨/音频轨编辑，用AI为创作赋能，满足多种专业剪辑场景。目前这款剪辑软件广泛应用于自媒体从业者和影视后期专业人士的视频创作工作中。",
     "license": {
         "identifier": "Proprietary",
         "url": "https://sf6-cdn-tos.huoshanstatic.com/obj/ies-hotsoon-draft/vco/ffd22c0b-e01c-400c-a09e-24671a1575a1.html"
     },
     "homepage": "https://lv.ulikecam.com",
-    "url": "https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_pro_2_8_0_7815_jianyingpro_0.exe#/dl.7z",
-    "hash": "3d1dda5a70a382f086f883257a0cd664dcb0b3fad377f3e4ebbe62259cbcfc0a",
+    "url": "https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_pro_2_8_5_7988_jianyingpro_0.exe#/dl.7z",
+    "hash": "2cf1ee4cf65b4a2c6b91020883170e365ab87154880da055fd69a71d454f6f0d",
     "pre_install": [
         "Move-Item \"$dir\\JYPacket\\$version\\*\" $dir -Force",
         "Remove-Item \"$dir\\JYPacket\" -Force -Recurse"
