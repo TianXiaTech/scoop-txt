@@ -1,13 +1,13 @@
 {
     "##": "QQ音乐",
-    "version": "18.59.0",
+    "version": "18.69.0",
     "description": "[QQ音乐] - 一款带有精彩音乐推荐功能的播放器，是国内内容丰富之一的音乐平台",
     "homepage": "https://y.qq.com",
     "license": {
         "identifier": "Proprietary",
         "url": "http://y.qq.com/y/static/tips/service_tips.html"
     },
-    "hash": "96773777b98767f86da43e4664e4a172dd0a3b9c3a8a8d90910631c943a727d8",
+    "hash": "c3e30e9a03b417d892b29b00f5a59d3df8acfa16cf601ab278c37e3bb3543aa9",
     "url": "https://dldir1.qq.com/music/clntupate/QQMusic_YQQWinPCDL.exe#/dl.7z",
     "post_install": "Copy-Item \"$dir\\QQMusic.tpc\" \"$dir\\instok\"",
     "checkver": {
