@@ -1,6 +1,6 @@
 {
     "##": "微信",
-    "version": "3.6.0",
+    "version": "3.7.0",
     "description": "[微信] - 超过10亿人使用，能够通过网络给好友发送文字消息、表情和图片，还可以传送文件，与朋友视频聊天，让你的沟通更方便。并提供有多种语言界面。",
     "license": {
         "identifier": "Proprietary",
@@ -15,7 +15,7 @@
             "weixin"
         ]
     ],
-    "hash": "039a9dea901301d057db147a9971a2c2a2dc45084049c62b9104a8e76d47d68f",
+    "hash": "f9061a7a57d15880bb3606c14a0786418a094daaedf92d413612f11aea4b5c8e",
     "checkver": {
         "url": "https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_faq_list",
         "regex": "page/faq/win.*?version>([\\d.]+)<"
