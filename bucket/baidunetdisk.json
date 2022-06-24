@@ -10,6 +10,13 @@
     "homepage": "http://pan.baidu.com",
     "bin": "BaiduNetdisk.exe",
     "hash": "6628f156e0346b99bc03677cf3bc9872d4209334a12f763fe2f1465ed97439c8",
+    "shortcuts": [
+        [
+            "BaiduNetdisk.exe",
+            "百度网盘"
+        ]
+    ],
+    "persist": "users",
     "checkver": {
         "url": "http://pan.baidu.com/disk/cmsdata?do=client",
         "regex": "BaiduNetdisk_([\\d.]+).exe"
