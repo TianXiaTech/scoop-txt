@@ -17,12 +17,13 @@
 
 ### 安装命令
 
+[查看更多](https://github.com/ScoopInstaller/Install)
+
 ``` powershell
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 
 # 简短方式安装
 iwr -useb get.scoop.sh | iex
-
 ```
 
 ### 特别说明
