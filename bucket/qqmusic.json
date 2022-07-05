@@ -7,7 +7,7 @@
         "identifier": "Proprietary",
         "url": "http://y.qq.com/y/static/tips/service_tips.html"
     },
-    "hash": "c3e30e9a03b417d892b29b00f5a59d3df8acfa16cf601ab278c37e3bb3543aa9",
+    "hash": "2f1b207afd0b1dfb719244eccf96ba4b7ae90fb801551c3e42e05ebeb2af56fe",
     "url": "https://dldir1.qq.com/music/clntupate/QQMusic_YQQWinPCDL.exe#/dl.7z",
     "post_install": "Copy-Item \"$dir\\QQMusic.tpc\" \"$dir\\instok\"",
     "checkver": {
