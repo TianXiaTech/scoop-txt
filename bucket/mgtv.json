@@ -20,10 +20,10 @@
     ],
     "checkver": {
         "url": "https://www.mgtv.com/app",
-        "regex": "pc\\\\u002F(?<prefix>.*?)\\\\u002Fmgtv-client-([\\d.]+)-mango2\\.exe"
+        "regex": "pc\\\\u002F(?<prefix>.*?)\\\\u002Fmgtv-client-([\\d.]+)-mango\\.exe"
     },
     "autoupdate": {
-        "url": "https://download.imgo.tv/app/pc/$matchPrefix/mgtv-client-$version-mango2.exe#/dl.7z",
+        "url": "https://download.imgo.tv/app/pc/$matchPrefix/mgtv-client-$version-mango.exe#/dl.7z",
         "hash": {
             "mode": "download"
         }
