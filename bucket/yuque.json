@@ -24,6 +24,6 @@
         "regex": "desktopDownloadVersion%22%3A%22([\\d.]+)%22"
     },
     "autoupdate": {
-        "url": "https://app.nlark.com/yuque-desktop/Yuque-$version.exe#/dl.7z"
+        "url": "https://app.nlark.com/yuque-desktop/$version/Yuque-$version.exe#/dl.7z"
     }
 }
