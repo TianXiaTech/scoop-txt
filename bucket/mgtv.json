@@ -27,5 +27,10 @@
         "hash": {
             "mode": "download"
         }
-    }
+    },
+    "notes": [
+        "如果更新出现仍在运行的话，需要先关掉进程和服务",
+        "Get-Process *mgtv*,*芒果TV* | Stop-Process",
+        "Get-Service *mgtv*,*芒果TV* | Stop-Service"
+    ]
 }
