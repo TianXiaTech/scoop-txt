@@ -1,15 +1,15 @@
 {
     "##": "百度网盘",
-    "version": "7.17.5.19",
+    "version": "7.17.6.2",
     "description": "[百度网盘（原百度云）] - 百度网盘是百度推出的一项云存储服务，用户将可以轻松将自己的文件上传到网盘上，并可跨终端随时随地查看和分享。",
     "license": {
         "identifier": "Proprietary",
         "url": "https://pan.baidu.com/disk/main#/protocol/duty_mobi"
     },
-    "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.17.5.19.exe#/dl.7z",
+    "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_7.17.6.2.exe#/dl.7z",
     "homepage": "http://pan.baidu.com",
     "bin": "BaiduNetdisk.exe",
-    "hash": "14964c8c3f6dc0d3fd1457d1497e8700942a0ed9ea9366512505a61af61ee2e2",
+    "hash": "5f0d5e713f5d2a79f0b4daac6354c62d2c167b33885f5c4fa746c4fde3205d52",
     "shortcuts": [
         [
             "BaiduNetdisk.exe",
