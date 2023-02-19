@@ -9,7 +9,8 @@
   "powershell.codeFormatting.ignoreOneLineBlock": true,
   "json.schemas": [
       {
-          "url": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
+          // "url": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
+          "url": "./schema.json",
           "fileMatch": [
               "bucket/*.json"
           ]
@@ -22,5 +23,8 @@
       "**/CVS": true,
       "**/.DS_Store": true,
       "**/tmp": true
-  }
+},
+"yaml.schemas": {
+    "https://json.schemastore.org/github-issue-config.json": "file:///d%3A/MyGithub/scoop-txt/.github/ISSUE_TEMPLATE/config.yml"
+}
 }
