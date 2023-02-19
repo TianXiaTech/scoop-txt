@@ -1,13 +1,13 @@
 {
     "##": "优酷",
-    "version": "8.0.9.11050",
+    "version": "9.2.14.1001",
     "license": {
         "identifier": "Copyright © 2019 优酷"
     },
     "description": "[优酷] - 优酷视频客户端",
     "homepage": "https://www.youku.com",
-    "url": "https://pcclient.download.youku.com/youkuclient/youkuclient_setup_8.0.9.11050.exe#/dl.7z",
-    "hash": "9f296b512e2a10673545de2facb68f598dc1332f904a74184933a29ed82aaa03",
+    "url": "https://pcclient.download.youku.com/iku-win-release/youkuclient_setup_9.2.14.1001.exe#/dl.7z",
+    "hash": "23d510b324115511c06d0ea361d81c66072337aec08f9f24e3f5e04a0b754e06",
     "bin": [
         [
             "YoukuDesktop.exe",
@@ -29,11 +29,11 @@
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
     ],
     "checkver": {
-        "url": "https://pd.youku.com/pc",
-        "regex": "youkuclient/youkuclient_setup_([\\d.]+)\\.exe"
+        "url": "https://youku.com/product/index",
+        "regex": "youkuclient_setup_([\\d.]+).exe"
     },
     "autoupdate": {
-        "url": "https://pcclient.download.youku.com/youkuclient/youkuclient_setup_$version.exe#/dl.7z",
+        "url": "https://pcclient.download.youku.com/iku-win-release/youkuclient_setup_$version.exe#/dl.7z",
         "hash": {
             "mode": "download"
         }
