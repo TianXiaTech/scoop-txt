@@ -1,27 +1,27 @@
 {
-    "##": "QQ音乐",
-    "version": "19.17.0",
-    "description": "[QQ音乐] - 一款带有精彩音乐推荐功能的播放器，是国内内容丰富之一的音乐平台",
-    "homepage": "https://y.qq.com",
-    "license": {
-        "identifier": "Proprietary",
-        "url": "http://y.qq.com/y/static/tips/service_tips.html"
-    },
-    "hash": "693f64cd33b11f110585eed94807fb34e5f36e09b359c753da8e4a8681c37729",
-    "url": "https://dldir1.qq.com/music/clntupate/QQMusic_YQQWinPCDL.exe#/dl.7z",
-    "post_install": "Copy-Item \"$dir\\QQMusic.tpc\" \"$dir\\instok\"",
-    "checkver": {
-        "url": "https://y.qq.com/download/download.html",
-        "regex": "Windows PC.*\\:([\\d.]+)"
-    },
-    "bin": "QQMusic.exe",
-    "shortcuts": [
-        [
-            "QQMusic.exe",
-            "QQ音乐"
-        ]
-    ],
-    "autoupdate": {
-        "url": "https://dldir1.qq.com/music/clntupate/QQMusic_YQQWinPCDL.exe#/dl.7z"
-    }
+  "##": "QQ音乐",
+  "version": "19.17.0",
+  "description": "[QQ音乐] - 一款带有精彩音乐推荐功能的播放器，是国内内容丰富之一的音乐平台",
+  "homepage": "https://y.qq.com",
+  "license": {
+    "identifier": "Proprietary",
+    "url": "http://y.qq.com/y/static/tips/service_tips.html"
+  },
+  "hash": "693f64cd33b11f110585eed94807fb34e5f36e09b359c753da8e4a8681c37729",
+  "url": "https://dldir1.qq.com/music/clntupate/QQMusic_YQQWinPCDL.exe#/dl.7z",
+  "post_install": "Copy-Item \"$dir\\QQMusic.tpc\" \"$dir\\instok\"",
+  "checkver": {
+    "url": "https://y.qq.com/download/download.html",
+    "regex": "Windows PC.*\\:([\\d.]+)"
+  },
+  "bin": "QQMusic.exe",
+  "shortcuts": [
+    [
+      "QQMusic.exe",
+      "QQ音乐"
+    ]
+  ],
+  "autoupdate": {
+    "url": "https://dldir1.qq.com/music/clntupate/QQMusic_YQQWinPCDL.exe#/dl.7z"
+  }
 }
