@@ -1,15 +1,15 @@
 {
     "##": "酷狗音乐",
-    "version": "10.0.53",
+    "version": "10.1.36",
     "description": "[酷狗音乐] - 一款音乐播放软件，也是中国国内最大的 P2P 音乐共享软件",
     "bin": "KuGou.exe",
-    "hash": "557b4fcf813ca0362b84adcffc0879f82ea439861156ef92112d0a0b1db8fd54",
+    "hash": "3fcbd045c61cc030f1b1410eca6ee9697521a085277887e2a72f548485a9e28b",
     "homepage": "https://www.kugou.com",
     "license": {
         "identifier": "Proprietary",
         "url": "https://www.kugou.com/about/protocol.html"
     },
-    "url": "https://downmini.yun.kugou.com/web/kugou10053.exe#/dl.7z",
+    "url": "https://downmini.yun.kugou.com/web/kugou_10136.exe#/dl.7z",
     "pre_install": [
         "Move-Item \"$dir\\`$PLUGINSDIR\\KuGou.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
@@ -31,6 +31,6 @@
         "regex": "V ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://downmini.yun.kugou.com/web/kugou$cleanVersion.exe#/dl.7z"
+        "url": "https://downmini.yun.kugou.com/web/kugou_$cleanVersion.exe#/dl.7z"
     }
 }
