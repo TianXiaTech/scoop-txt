@@ -1,6 +1,6 @@
 on:
   issue_comment:
-    types: [ created ]
+    types: [created]
 name: Commented Pull Request
 jobs:
   pullRequestHandler:

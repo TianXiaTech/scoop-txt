@@ -1,6 +1,6 @@
 on:
   pull_request:
-    types: [ opened ]
+    types: [opened]
 name: Pull Requests
 jobs:
   pullRequestHandler:

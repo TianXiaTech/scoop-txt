@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Scoop TXT Support
+    url: https://github.com/TianXiaTech/scoop-txt/discussions
+    about: Please ask questions here.

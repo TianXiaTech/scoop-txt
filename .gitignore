@@ -1,5 +1,9 @@
-.idea/*
-!.idea/jsonSchemas.xml
+*.sublime-workspace
+*~
+._*
+page.html
+checkver-*.html
+
 .note.md
 _bin
 .history
