@@ -29,10 +29,10 @@
             "$version = [regex]::Match($filePath, '([\\d.]+)').Groups[1].Value",
             "Write-Output $version $downloadUrl"
         ],
-        "regex": "^([\\d.]+)\\s+https://(?<downloadUrl>.+)$"
+        "regex": "^([\\d.]+)\\s+https:\\/\\/dl\\.todesktop\\.com\\/(?<downloadUrl>.+)$"
     },
     "autoupdate": {
-        "url": "https://$matchDownloadUrl#/dl.7z",
+        "url": "https://dl.todesktop.com/$matchDownloadUrl#/dl.7z",
         "hash": {
             "mode": "download"
         }

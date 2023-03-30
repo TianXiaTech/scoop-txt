@@ -23,10 +23,13 @@
     "checkver": {
         "url": "https://lf3-beecdn.bytetos.com/obj/ies-fe-bee/bee_prod/biz_80/bee_prod_80_bee_publish_3563.json",
         "jsonpath": "$.windows_download_pkg.channel_default",
-        "regex": "(?<link>.*?Jianying_(\\d+)_(\\d+)_(\\d+)_(\\d+)_.*?\\.exe)",
+        "regex": "https:\\/\\/lf3-package\\.vlabstatic\\.com\\/(?<link>.*?Jianying_(\\d+)_(\\d+)_(\\d+)_(\\d+)_.*?\\.exe)",
         "replace": "${1}.${2}.${3}.${4}"
     },
     "autoupdate": {
-        "url": "$matchLink#/dl.7z"
+        "url": "https://lf3-package.vlabstatic.com/$matchLink#/dl.7z",
+        "hash": {
+            "mode": "download"
+        }
     }
 }
