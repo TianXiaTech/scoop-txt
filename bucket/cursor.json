@@ -19,9 +19,7 @@
             "Cursor"
         ]
     ],
-    "persist": [
-        "resources/lsp"
-    ],
+    "persist": "resources/lsp",
     "checkver": {
         "script": [
             "$response = Invoke-WebRequest -Uri 'https://www.cursor.so/'",
