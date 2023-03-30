@@ -19,7 +19,7 @@
     "persist": "users",
     "checkver": {
         "url": "http://pan.baidu.com/disk/cmsdata?do=client",
-        "regex": "BaiduNetdisk_([\\d.]+).exe"
+        "regex": "BaiduNetdisk_([\\d.]+)\\.exe"
     },
     "autoupdate": {
         "url": "http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_$version.exe#/dl.7z",
