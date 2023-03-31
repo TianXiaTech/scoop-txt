@@ -10,12 +10,6 @@
     "url": "https://github.com/lencx/nofwl/releases/download/v0.1.0/NoFWL_0.1.0_windows_x86_64.msi",
     "hash": "ea24e9e631a1d6df0a7741ccca312a5c7c2b241c9cf4e408cad0a6b670eb0dac",
     "extract_dir": "PFiles/NoFWL",
-    "bin": [
-        [
-            "NoFWL.exe",
-            "nofwl"
-        ]
-    ],
     "shortcuts": [
         [
             "NoFWL.exe",
