@@ -1,6 +1,6 @@
 {
     "##": "Openai Translator",
-    "version": "0.0.39",
+    "version": "0.0.40",
     "description": "基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用",
     "license": {
         "identifier": "GPL-3.0-only",
@@ -9,8 +9,8 @@
     "homepage": "https://github.com/yetone/openai-translator/blob/main/README-CN.md",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yetone/openai-translator/releases/download/v0.0.39/OpenAI.Translator_0.0.39_x64_en-US.msi",
-            "hash": "480de074251a56e36fdea4be32feca750b107978fcb008a567b58b8596427981"
+            "url": "https://github.com/yetone/openai-translator/releases/download/v0.0.40/OpenAI.Translator_0.0.40_x64_en-US.msi",
+            "hash": "462fb67b816474b3c635d280228afb296fdea9b72d53e16cfa0de607cc35dc34"
         }
     },
     "shortcuts": [
