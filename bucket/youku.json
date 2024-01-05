@@ -1,13 +1,13 @@
 {
     "##": "优酷",
-    "version": "9.2.36.1001",
+    "version": "9.2.37.1001",
     "license": {
         "identifier": "Copyright © 2019 优酷"
     },
     "description": "[优酷] - 优酷视频客户端",
     "homepage": "https://www.youku.com",
-    "url": "https://pcclient.download.youku.com/iku-win-release/youkuclient_setup_9.2.36.1001.exe#/dl.7z",
-    "hash": "e7e51a1603aa413f61fe5b8e478479ac4091a29d2347d2de946d2a954d2fbd27",
+    "url": "https://pcclient.download.youku.com/iku-win-release/youkuclient_setup_9.2.37.1001.exe#/dl.7z",
+    "hash": "f72ed5f986d9dc0f20559654e8222db72d287b74ba99dce46cf3c3118ca584ff",
     "bin": [
         [
             "YoukuDesktop.exe",
