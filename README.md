@@ -7,10 +7,13 @@
 ### 系统环境要求
 
 1. PowerShell 5以上, 查看命令:
+
     ``` powershell
     $PSVersionTable
     ```
+
 2. .NET Framework 4.5或更高版本, 查看命令:
+
     ``` powershell
     (Get-ItemProperty "HKLM:SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full").Release -ge 378389
     ```
@@ -33,10 +36,13 @@ iwr -useb get.scoop.sh | iex
 ## scoop-txt
 
 scoop-txt源主要包含国内热门的应用程序，添加scoop-txt源到scoop:
+
 ``` powershell
 scoop bucket add txt https://github.com/TianXiaTech/scoop-txt.git
 ```
+
 安装应用:
+
 ``` powershell
 scoop install weixin
 # or
