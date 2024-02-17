@@ -7,3 +7,5 @@ checkver-*.html
 .note.md
 _bin
 .history
+discard
+*.log
