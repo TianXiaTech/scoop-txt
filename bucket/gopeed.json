@@ -11,19 +11,19 @@
     "url": "https://github.com/GopeedLab/gopeed/releases/download/v1.5.5/Gopeed-v1.5.5-windows-amd64-portable.zip",
     "checkver": "github",
     "pre_install": [
-      "if (-not (Test-Path \"$persist_dir\\gopeed.db\")) { New-Item \"$dir\\gopeed.db\" -ItemType file | Out-Null }",
-      "if (-not (Test-Path \"$persist_dir\\database.hive\")) { New-Item \"$dir\\database.hive\" -ItemType file | Out-Null }",
-      "if (-not (Test-Path \"$persist_dir\\database.lock\")) { New-Item \"$dir\\database.lock\" -ItemType file | Out-Null }"
+        "if (-not (Test-Path \"$persist_dir\\gopeed.db\")) { New-Item \"$dir\\gopeed.db\" -ItemType file | Out-Null }",
+        "if (-not (Test-Path \"$persist_dir\\database.hive\")) { New-Item \"$dir\\database.hive\" -ItemType file | Out-Null }",
+        "if (-not (Test-Path \"$persist_dir\\database.lock\")) { New-Item \"$dir\\database.lock\" -ItemType file | Out-Null }"
     ],
     "autoupdate": {
         "url": "https://github.com/GopeedLab/gopeed/releases/download/v$version/Gopeed-v$version-windows-amd64-portable.zip"
     },
     "persist": [
-      "logs",
-      "extensions",
-      "gopeed.db",
-      "database.hive",
-      "database.lock"
+        "logs",
+        "extensions",
+        "gopeed.db",
+        "database.hive",
+        "database.lock"
     ],
     "shortcuts": [
         [
