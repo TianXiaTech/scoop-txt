@@ -30,6 +30,5 @@
             "gopeed.exe",
             "Gopeed"
         ]
-    ],
-    "bin": "gopeed.exe"
+    ]
 }
