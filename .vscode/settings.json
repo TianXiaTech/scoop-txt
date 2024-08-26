@@ -1,29 +1,32 @@
 // Configure PSScriptAnalyzer settings
 {
-  "[powershell]": {
-      "editor.formatOnSave": true
-  },
-  "powershell.scriptAnalysis.settingsPath": "PSScriptAnalyzerSettings.psd1",
-  "powershell.codeFormatting.preset": "OTBS",
-  "powershell.codeFormatting.alignPropertyValuePairs": true,
-  "powershell.codeFormatting.ignoreOneLineBlock": true,
-  "json.schemas": [
-      {
-          "url": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
-          "fileMatch": [
-            "bucket/*.json"
-          ]
-      }
-  ],
-  "files.exclude": {
-      "**/.git": true,
-      "**/.svn": true,
-      "**/.hg": true,
-      "**/CVS": true,
-      "**/.DS_Store": true,
-      "**/tmp": true
-  },
-  "yaml.schemas": {
-      "https://json.schemastore.org/github-issue-config.json": "file:///d%3A/MyGithub/scoop-txt/.github/ISSUE_TEMPLATE/config.yml"
-  }
+    "[powershell]": {
+        "editor.formatOnSave": true
+    },
+    "powershell.scriptAnalysis.settingsPath": "PSScriptAnalyzerSettings.psd1",
+    "powershell.codeFormatting.preset": "OTBS",
+    "powershell.codeFormatting.alignPropertyValuePairs": true,
+    "powershell.codeFormatting.ignoreOneLineBlock": true,
+    "json.schemas": [
+        {
+            "url": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
+            "fileMatch": [
+                "bucket/*.json"
+            ]
+        }
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/tmp": true
+    },
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-issue-config.json": "file:///d%3A/MyGithub/scoop-txt/.github/ISSUE_TEMPLATE/config.yml"
+    },
+    "cSpell.words": [
+        "checkver"
+    ]
 }
