@@ -8,11 +8,22 @@
         "url": "http://y.qq.com/y/static/tips/service_tips.html"
     },
     "hash": "950572828b56351f2342924b7ebfb395af046e0a09770836a0d181364ffad33b",
-    "url": "https://dldir.y.qq.com/ecosfile/music_clntupate/pc/other/QQMusic_Setup_2161.exe?sign=1752599193-XBuCjOBAHaNJMxRx-0-136d4568458f589a597819188e6e4ab7#/dl.7z",
+    "url": "https://c.y.qq.com/cgi-bin/file_redirect.fcg?bid=dldir&file=ecosfile%2Fmusic_clntupate%2Fpc%2Fother%2FQQMusic_Setup_2161.exe&sign=1-c630686be67e75b88b06d2e82e16f8ba7097ab138acb5a4aac811db4c8dcd4b7-686b921a#/dl.7z",
     "post_install": "Copy-Item \"$dir\\QQMusic.tpc\" \"$dir\\instok\"",
     "checkver": {
-        "url": "https://y.qq.com/download/download.html",
-        "regex": "Windows PC.*\\:([\\d.]+)"
+        "script": [
+            "$url = 'https://y.qq.com/download/download.js'",
+            "$res = Invoke-WebRequest -Uri $url -UseBasicParsing",
+            "$content = $res.Content",
+            "$jsonString = $content -replace '^MusicJsonCallback\\(|\\)$', ''",
+            "$data = $jsonString | ConvertFrom-Json",
+            "$json = $data.data | Where-Object { $_.Ftitle -match \"Windows PC\" }",
+            "$version = $json.Fversion -replace '^最新版:', ''",
+            "$downloadUrl = $json.Flink1",
+            "$str = \"$($version)_____$($downloadUrl)\"",
+            "Write-Output $str"
+        ],
+        "regex": "([\\d.]+)_____https://(?<url>.+)"
     },
     "bin": "QQMusic.exe",
     "shortcuts": [
@@ -22,6 +33,6 @@
         ]
     ],
     "autoupdate": {
-        "url": "https://dldir.y.qq.com/ecosfile/music_clntupate/pc/other/QQMusic_Setup_$majorVersion$minorVersion.exe?sign=1752599193-XBuCjOBAHaNJMxRx-0-136d4568458f589a597819188e6e4ab7#/dl.7z"
+        "url": "https://$matchUrl#/dl.7z"
     }
 }
