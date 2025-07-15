@@ -23,7 +23,7 @@
             "$str = \"$($version)_____$($downloadUrl)\"",
             "Write-Output $str"
         ],
-        "regex": "([\\d.]+)_____https:\\/\\/(?<url>.+)"
+        "regex": "([\\d.]+)_____https://c.y.qq.com/(?<url>.+)"
     },
     "bin": "QQMusic.exe",
     "shortcuts": [
@@ -33,6 +33,6 @@
         ]
     ],
     "autoupdate": {
-        "url": "https://$matchUrl#/dl.7z"
+        "url": "https://c.y.qq.com/$matchUrl#/dl.7z"
     }
 }
