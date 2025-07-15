@@ -27,7 +27,7 @@
             "$str = \"$($json.version)_____$($json.downloadUrl)\"",
             "Write-Output $str"
         ],
-        "regex": "^([\\d.]+)_____https://(?<url>.*?)$"
+        "regex": "^([\\d.]+)_____https:\\/\\/(?<url>.*?)$"
     },
     "autoupdate": {
         "url": "https://$matchUrl#/dl.7z",

@@ -23,7 +23,7 @@
             "$str = \"$($version)_____$($downloadUrl)\"",
             "Write-Output $str"
         ],
-        "regex": "([\\d.]+)_____https://(?<url>.+)"
+        "regex": "([\\d.]+)_____https:\\/\\/(?<url>.+)"
     },
     "bin": "QQMusic.exe",
     "shortcuts": [
