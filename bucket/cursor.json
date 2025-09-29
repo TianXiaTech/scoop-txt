@@ -1,6 +1,6 @@
 {
     "##": "cursor 编辑器",
-    "version": "1.7.12",
+    "version": "1.7.17",
     "description": "Cursor 旨在让您获得非凡的生产力，它是使用 AI 进行编码的最佳方式",
     "license": {
         "identifier": "Proprietary",
@@ -11,8 +11,8 @@
         "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
         "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Recurse"
     ],
-    "url": "https://downloads.cursor.com/production/b3f1951240d5016648330fab51192dc03e8d705a/win32/x64/user-setup/CursorUserSetup-x64-1.7.12.exe#/dl.7z",
-    "hash": "a37fdba1aec26698a5ccf9aed79c25849255bb695033a6da7d2396532b6c1312",
+    "url": "https://downloads.cursor.com/production/34881053400013f38e2354f1479c88c9067039a2/win32/x64/user-setup/CursorUserSetup-x64-1.7.17.exe#/dl.7z",
+    "hash": "311f3ce0d129d05db17385c7b0eaecd49cbb95894786df10b32c4562b50b66c8",
     "shortcuts": [
         [
             "Cursor.exe",
