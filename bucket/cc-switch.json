@@ -1,10 +1,10 @@
 {
-    "version": "3.8.1",
+    "version": "3.8.2",
     "description": "一个用于管理和切换 Claude Code 和 Codex 不同供应商配置的桌面应用",
     "homepage": "https://github.com/farion1231/cc-switch",
     "license": "MIT",
-    "url": "https://github.com/farion1231/cc-switch/releases/download/v3.8.1/CC-Switch-v3.8.1-Windows.msi",
-    "hash": "59ab8d3965fb59ad4b5be2a79af3d2a2dfe0d356ec13f5aee7f1bfdbba5f8581",
+    "url": "https://github.com/farion1231/cc-switch/releases/download/v3.8.2/CC-Switch-v3.8.2-Windows.msi",
+    "hash": "3f41b22a98f6458c1d379521d3f20eebaf78cbe7164bee06a7e33a9827ec413d",
     "extract_dir": "Programs\\CC Switch",
     "checkver": "github",
     "shortcuts": [
