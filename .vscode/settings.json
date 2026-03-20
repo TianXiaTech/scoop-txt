@@ -31,6 +31,7 @@
     "cntv",
     "Douyu",
     "gopeed",
+    "imewlconverter",
     "Jianying",
     "mgtv",
     "miru",
@@ -40,7 +41,7 @@
   ],
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {
-      "file": ".github/instructions/git-commit-message.md"
+      "file": ".github/commit-instructions.md"
     }
   ]
 }
