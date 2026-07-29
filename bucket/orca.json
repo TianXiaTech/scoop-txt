@@ -17,6 +17,12 @@
             "Orca"
         ]
     ],
+    "bin": [
+        [
+            "Orca.exe",
+            "orca"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/stablyai/orca/releases/download/v$version/orca-windows-setup.exe#/dl.7z"
