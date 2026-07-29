@@ -19,7 +19,7 @@
     ],
     "bin": [
         [
-            "Orca.exe",
+            "resources\\bin\\orca.exe",
             "orca"
         ]
     ],
