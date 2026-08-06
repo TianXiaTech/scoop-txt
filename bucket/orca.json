@@ -1,11 +1,11 @@
 {
     "##": "Orca",
-    "version": "1.4.174",
+    "version": "1.4.175",
     "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
     "homepage": "https://github.com/stablyai/orca",
     "license": "MIT",
-    "url": "https://github.com/stablyai/orca/releases/download/v1.4.174/orca-windows-setup.exe#/dl.7z",
-    "hash": "11ada6dd7c0408ddf68f036aef244d1611dde913cacc7a4e4b5a139564a239c0",
+    "url": "https://github.com/stablyai/orca/releases/download/v1.4.175/orca-windows-setup.exe#/dl.7z",
+    "hash": "8f68200147f9a8babdaa0a4aa769d6f436df2ad022f2b4c940ab29984394c071",
     "pre_install": [
         "Move-Item \"$dir\\`$PLUGINSDIR\\app-64.7z\" $dir -Force",
         "Remove-Item $dir\\* -Exclude app-64.7z -Force -Recurse",
