@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scoop 提交消息"
+  short_description: "根据 Git 变更生成符合 Scoop Bucket 规范的提交消息"
+  default_prompt: "使用 $scoop-commit 检查当前 Git 变更并生成符合 Scoop Bucket 规范的提交消息。"
