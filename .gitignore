@@ -9,3 +9,4 @@ _bin
 .history
 discard
 *.log
+.output/
