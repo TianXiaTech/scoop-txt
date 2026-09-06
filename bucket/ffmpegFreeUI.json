@@ -1,18 +1,18 @@
 {
     "homepage": "https://github.com/Lake1059/FFmpegFreeUI",
     "description": "3FUI 是 ffmpeg 在 Windows 上的轻度专业交互外壳，收录大量参数，界面美观，交互友好。此项目面向国内使用环境，让普通人也能够轻松压制视频和转换格式",
-    "version": "6.2.12",
+    "version": "6.2.13",
     "license": "MIT",
     "depends": "versions/windowsdesktop-runtime-10.0",
     "notes": "Installing the .NET Desktop Runtime dependency requires administrator privileges.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/6.2.12/FFmpegFreeUI.x64.exe",
-            "hash": "7539eae272de5904949f8c68f86796a701d7e355f8220214b630b8d4dbfbd5b5"
+            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/6.2.13/FFmpegFreeUI.x64.exe",
+            "hash": "9840f7dbb3af4e892badadbbf694ad420e9fa7c8eb7313b7ea8ce0380cdf15ed"
         },
         "arm64": {
-            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/6.2.12/FFmpegFreeUI.arm64.exe",
-            "hash": "296739b4bdc5e50a222f4ede66077e1b43f8ff33151d00cc2e2a20ad43667a80"
+            "url": "https://github.com/Lake1059/FFmpegFreeUI/releases/download/6.2.13/FFmpegFreeUI.arm64.exe",
+            "hash": "aa3ee288dc45ff5ebd39a93cb9415718dd0df2673a6e27c08ac653d648642697"
         }
     },
     "pre_install": [
