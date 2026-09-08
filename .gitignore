@@ -10,3 +10,5 @@ _bin
 discard
 *.log
 .output/
+node_modules/
+.clack-kit/

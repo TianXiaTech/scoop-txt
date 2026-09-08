@@ -1,0 +1,15 @@
+{
+  "lockfileVersion": 2,
+  "configVersion": 0,
+  "workspaces": {
+    "": {
+      "name": "scoop-txt-tasks",
+      "dependencies": {
+        "clack-kit": "0.6.4",
+      },
+    },
+  },
+  "packages": {
+    "clack-kit": ["clack-kit@0.6.4", "", {}, "sha512-2HHYF+rBGzYWo/TvfDFDbubn18he/gJeqbqjGukYk9CVEXhShPK5mhU1tjtN3m9fc4Fd/P5tlMlIKL07vw7AiA=="],
+  }
+}
