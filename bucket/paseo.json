@@ -1,11 +1,11 @@
 {
     "##": "Paseo",
-    "version": "0.11.0",
+    "version": "0.11.1",
     "description": "Orchestrate multiple coding agents from desktop and mobile",
     "homepage": "https://github.com/getpaseo/paseo",
     "license": "https://github.com/getpaseo/paseo#License-1-ov-file",
-    "url": "https://github.com/getpaseo/paseo/releases/download/v0.11.0/Paseo-Setup-0.11.0.exe#/dl.7z",
-    "hash": "80bea04cd210d52ed1572d4ecab4dd9bd831134fa894fab3cfcb0280ad6182af",
+    "url": "https://github.com/getpaseo/paseo/releases/download/v0.11.1/Paseo-Setup-0.11.1.exe#/dl.7z",
+    "hash": "5b34dd1de39d18b6858e17c19c8da19b2ab28e08e283de3cdf9339e38772d979",
     "pre_install": [
         "Move-Item \"$dir\\`$PLUGINSDIR\\app-64.7z\" $dir -Force",
         "Remove-Item $dir\\* -Exclude app-64.7z -Force -Recurse",
